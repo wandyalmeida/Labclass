@@ -16,17 +16,17 @@ import java.util.Scanner;
  * @author Sam
  * Please put the names and student numbers of the team here:
  * 
- * Name 1:
- * Number 1:
+ * Name 1: Carolina Landim
+ * Number 1: 2021226
  * 
  * Name 2: Charles Rocha
  * Number 2: 2021376
  * 
- * Name 3:
- * Number 3:
+ * Name 3: Lucas Barbosa
+ * Number 3: 2021337
  * 
- * Name 4:
- * Number 4
+ * Name 4: Wandwilson Almeida
+ * Number 4: 2021230
  * 
  * Name 5: Matthew Logan
  * Number 5: 2021390
