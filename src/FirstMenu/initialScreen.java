@@ -1,7 +1,8 @@
 package FirstMenu;
 
 import java.util.Scanner;
-import questions.Questions;
+import questions.PlayersCharacteristics;
+
 
 /**
  *
@@ -10,7 +11,7 @@ import questions.Questions;
 public class initialScreen {
     Scanner sc = new java.util.Scanner(System.in);
     int option;
-    Questions questions = new Questions();
+    PlayersCharacteristics questions = new PlayersCharacteristics();
     
     public void startMenu(){
         System.out.println("Welcome! What would you like to do today? Please enter the number corresponding to your choice.");
