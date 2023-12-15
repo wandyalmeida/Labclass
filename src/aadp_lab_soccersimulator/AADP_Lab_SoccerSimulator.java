@@ -19,8 +19,8 @@ import java.util.Scanner;
  * Name 1:
  * Number 1:
  * 
- * Name 2:
- * Number 2:
+ * Name 2: Charles Rocha
+ * Number 2: 2021376
  * 
  * Name 3:
  * Number 3:
