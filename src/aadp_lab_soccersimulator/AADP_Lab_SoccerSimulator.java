@@ -38,12 +38,7 @@ public class AADP_Lab_SoccerSimulator {
      * @param args the command line arguments
      */
     public static void main(String[] args) throws ClassNotFoundException, InstantiationException, IllegalAccessException {
-        String dbName = "world_cup";
-        String[] teams = {"Ireland", "Brazil", "Argentina", "Japan", "Mexico", "Senegal", "Tunisia", "Qatar"};
-        String DB_URL = "jdbc:mysql://localhost/" + dbName;
-        String USER = "football";
-        String PASS = "Java is almost as good as football";
-        Class.forName("com.mysql.cj.jdbc.Driver").newInstance();
+        
          try {
             Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/", USER, PASS);
             Statement stmt = conn.createStatement();
