@@ -11,7 +11,7 @@ import java.sql.Statement;
 
 /**
  *
- * @author carol
+ * @author Carolina Landim 2021226
  */
 public class SelectTeams {
     
