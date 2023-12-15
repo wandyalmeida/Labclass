@@ -6,9 +6,9 @@ package database;
 
 
 import java.sql.Connection;
-import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.sql.Statement;
+
 
 /**
  *
@@ -18,8 +18,8 @@ public class CreateDB {
     
     // Create Database Schema
     public boolean create_schema(){
-       Connection conn = new Connection().connectDB();
-       PreparedStatement pstm;       
+       String[] teams = {"Ireland", "Brazil", "Argentina", "Japan", "Mexico", "Senegal", "Tunisia", "Qatar"};
+       Connection conn = new ConnectDB().connectDB();
         try {
 
                 Statement stmt = conn.createStatement();
@@ -39,5 +39,6 @@ public class CreateDB {
             } catch (SQLException e) {
                 e.printStackTrace();
             }
+        return false;
     }
 }

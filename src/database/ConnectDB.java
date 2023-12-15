@@ -14,7 +14,7 @@ import java.sql.SQLException;
  *
  * @author Carolina Landim 2021226
  */
-public class CoonectDB {
+public class ConnectDB {
     
     
     // Connect the Database
