@@ -28,6 +28,8 @@ import java.util.Scanner;
  * Name 4:
  * Number 4
  * 
+ * Name 5: Matthew Logan
+ * Number 5: 2021390
  */
 
 public class AADP_Lab_SoccerSimulator {
