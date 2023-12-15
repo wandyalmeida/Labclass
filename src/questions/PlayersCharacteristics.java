@@ -7,7 +7,7 @@ import teams.Players;
  *
  * @author Charles Rocha
  */
-public class Questions {
+public class PlayersCharacteristics {
 
     Scanner userInput = new Scanner(System.in);
     Players teamPlayer = new Players();
@@ -20,18 +20,18 @@ public class Questions {
 
     public void userInput() {
         System.out.println("Please enter the player's name:");
-        name = userInput.nextLine();
+        name = userInput.next();
         System.out.println("Please enter the player's number:");
         number = userInput.nextInt();
         System.out.println("Please enter the player's date of birth: ");
-        birth = userInput.nextLine();
+        birth = userInput.next();
         System.out.println("Please enter the player's position: ");
-        position = userInput.nextLine();
+        position = userInput.next();
         System.out.println("Please enter the number of goals the player has scored: ");
         goalsScored = userInput.nextInt();
         System.out.println("Please enter the player's background:");
-        background = userInput.nextLine();
-        
+        background = userInput.next();
+
         teamPlayer.setName(name);
         teamPlayer.setNumber(number);
         teamPlayer.setBirth(birth);
